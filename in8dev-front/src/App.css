@@ -1,0 +1,51 @@
+* {
+  background-color: #29abe2;
+  color: white;
+  align-items: center;
+}
+
+.register-title{
+  font-family: Helvetica;
+  font-size: 25;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-container{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.register-container{
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-top: 70px;
+}
+
+.register-input{
+  display: block;
+  padding: 7px 1px;
+  margin: 0 0 20px 0;
+  text-align: left;
+  float:left;
+  width:550px;
+}
+
+input{
+  box-shadow: 0px 1px;
+  border: 0 none;
+  outline: 0;
+}
+
+
+.register-button{
+  background-color: #012d51;
+  color: #29abe2;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 60px;
+}
